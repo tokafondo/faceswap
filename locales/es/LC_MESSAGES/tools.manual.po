@@ -7,10 +7,14 @@ msgstr ""
 "Project-Id-Version: faceswap.spanish\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-03-20 13:45+0000\n"
 =======
 "POT-Creation-Date: 2021-03-22 18:31+0000\n"
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+"POT-Creation-Date: 2021-03-22 18:31+0000\n"
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 =======
 "POT-Creation-Date: 2021-03-22 18:31+0000\n"
 >>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
@@ -23,10 +27,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "X-Generator: Poedit 2.3\n"
 =======
 "X-Generator: Poedit 2.4.2\n"
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+"X-Generator: Poedit 2.4.2\n"
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 =======
 "X-Generator: Poedit 2.4.2\n"
 >>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
@@ -99,7 +107,10 @@ msgid "Display the mask"
 msgstr "Mostrar la máscara"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 =======
 >>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 
@@ -109,7 +120,10 @@ msgstr "Mostrar la máscara"
 msgid "Magnify/Demagnify the View"
 msgstr "Ampliar/Reducir la vista"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 =======
 >>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 
@@ -206,6 +220,7 @@ msgstr ""
 " - Dibuje un cuadro para seleccionar varios puntos para reubicarlos."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #: tools/manual/frameviewer\editor\landmarks.py:44
 #: tools/manual/frameviewer\editor\mask.py:75
@@ -213,6 +228,8 @@ msgid "Magnify/Demagnify the View"
 msgstr "Ampliar/Reducir la vista"
 =======
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 =======
 >>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 
@@ -309,6 +326,7 @@ msgstr "Editor de puntos de referencia"
 msgid "Next"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "siguiente"
 
 #: tools/manual/frameviewer\frame.py:397
@@ -321,6 +339,13 @@ msgstr "Siguiente"
 msgid "Previous"
 msgstr "Anterior"
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+msgstr "Siguiente"
+
+#: tools/manual/frameviewer\frame.py:397
+msgid "Previous"
+msgstr "Anterior"
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 =======
 msgstr "Siguiente"
 
