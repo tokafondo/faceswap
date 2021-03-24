@@ -6,12 +6,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: faceswap.spanish\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-03-12 14:35-0000\n"
 "PO-Revision-Date: 2021-03-23 00:15+0000\n"
 =======
 "POT-Creation-Date: 2021-03-20 14:15+0000\n"
 "PO-Revision-Date: 2021-03-20 14:17+0000\n"
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+"POT-Creation-Date: 2021-03-20 14:15+0000\n"
+"PO-Revision-Date: 2021-03-20 14:17+0000\n"
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 "Last-Translator: \n"
 "Language-Team: tokafondo\n"
 "Language: es\n"

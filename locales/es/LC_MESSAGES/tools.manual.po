@@ -6,10 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: faceswap.spanish\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-03-20 13:45+0000\n"
 =======
 "POT-Creation-Date: 2021-03-22 18:31+0000\n"
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+"POT-Creation-Date: 2021-03-22 18:31+0000\n"
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,10 +22,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "X-Generator: Poedit 2.3\n"
 =======
 "X-Generator: Poedit 2.4.2\n"
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+"X-Generator: Poedit 2.4.2\n"
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 
 #: tools/manual/cli.py:13
 msgid ""
@@ -90,14 +98,20 @@ msgstr "Mostrar la malla de puntos de referencia"
 msgid "Display the mask"
 msgstr "Mostrar la máscara"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 
 #: tools/manual/frameviewer\editor\_base.py:627
 #: tools/manual/frameviewer\editor\landmarks.py:44
 #: tools/manual/frameviewer\editor\mask.py:75
 msgid "Magnify/Demagnify the View"
 msgstr "Ampliar/Reducir la vista"
+<<<<<<< HEAD
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 
 #: tools/manual/frameviewer\editor\bounding_box.py:33
 #: tools/manual/frameviewer\editor\extract_box.py:32
@@ -191,6 +205,7 @@ msgstr ""
 " - Haga clic y arrastre los puntos individuales para reubicarlos.\n"
 " - Dibuje un cuadro para seleccionar varios puntos para reubicarlos."
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #: tools/manual/frameviewer\editor\landmarks.py:44
 #: tools/manual/frameviewer\editor\mask.py:75
@@ -198,6 +213,8 @@ msgid "Magnify/Demagnify the View"
 msgstr "Ampliar/Reducir la vista"
 =======
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 
 #: tools/manual/frameviewer\editor\mask.py:33
 msgid ""
@@ -291,6 +308,7 @@ msgstr "Editor de puntos de referencia"
 #: tools/manual/frameviewer\frame.py:397
 msgid "Next"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "siguiente"
 
 #: tools/manual/frameviewer\frame.py:397
@@ -303,6 +321,13 @@ msgstr "Siguiente"
 msgid "Previous"
 msgstr "Anterior"
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+msgstr "Siguiente"
+
+#: tools/manual/frameviewer\frame.py:397
+msgid "Previous"
+msgstr "Anterior"
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 
 #: tools/manual/frameviewer\frame.py:408
 msgid "Revert to saved Alignments ({})"

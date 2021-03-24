@@ -6,20 +6,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: faceswap.spanish\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-03-10 15:35-0000\n"
 "PO-Revision-Date: 2021-03-23 00:06+0000\n"
 "Language-Team: tokafondo\n"
 =======
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 "POT-Creation-Date: 2021-03-22 18:37+0000\n"
 "PO-Revision-Date: 2021-03-22 18:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: tokafondo\n"
 "Language: es_ES\n"
+<<<<<<< HEAD
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Poedit 2.3\n"
 "Last-Translator: \n"
@@ -68,6 +75,8 @@ msgstr "Carga estadísticas de sesión ya guardadas"
 
 #: lib/gui/display_command.py:91
 =======
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 "X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -145,22 +154,30 @@ msgid "Load saved session stats"
 msgstr "Carga estadísticas de sesión ya guardadas"
 
 #: lib/gui/display_command.py:94
+<<<<<<< HEAD
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 msgid "Preview updates at every model save. Click to refresh now."
 msgstr ""
 "Previsualización de actualizaciones cada guardado de modelo. Pulsar para "
 "actualizar ahora."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: lib/gui/display_command.py:258
 =======
 #: lib/gui/display_command.py:261
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+#: lib/gui/display_command.py:261
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 msgid "Graph updates at every model save. Click to refresh now."
 msgstr ""
 "Previsualización de gráficos cada guardado de modelo. Pulsar para actualizar "
 "ahora."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: lib/gui/display_command.py:272
 msgid "Display the raw loss data"
@@ -172,6 +189,8 @@ msgstr "Muestra los datos de pérdida regularizados"
 
 #: lib/gui/display_command.py:291
 =======
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 #: lib/gui/display_command.py:275
 msgid "Display the raw loss data"
 msgstr "Muestra los datos de pérdida sin procesar"
@@ -181,21 +200,29 @@ msgid "Display the smoothed loss data"
 msgstr "Muestra los datos de pérdida regularizados"
 
 #: lib/gui/display_command.py:294
+<<<<<<< HEAD
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 msgid "Set the smoothing amount. 0 is no smoothing, 0.99 is maximum smoothing."
 msgstr ""
 "Ajusta el nivel de regularización. 0 es sin regularización, 0.99 es máxima "
 "regularización."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: lib/gui/display_command.py:321
 =======
 #: lib/gui/display_command.py:324
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+#: lib/gui/display_command.py:324
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 msgid "Set the number of iterations to display. 0 displays the full session."
 msgstr ""
 "Ajusta el número de iteraciones a mostrar. 0 muestra la sesión completa."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: lib/gui/display_page.py:235
 msgid "Save {}(s) to file"
@@ -279,6 +306,8 @@ msgstr "Guardar todos los ajustes para la configuración seleccionada"
 
 #: lib/gui/popup_configure.py:212
 =======
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 #: lib/gui/display_page.py:238
 msgid "Save {}(s) to file"
 msgstr "Grabar {} a un fichero"
@@ -360,12 +389,16 @@ msgid "Save all settings for the currently selected config"
 msgstr "Guardar todos los ajustes para la configuración seleccionada"
 
 #: lib/gui/popup_configure.py:216
+<<<<<<< HEAD
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 msgid "Reset all settings for the currently selected config to default values"
 msgstr ""
 "Reiniciar todos los ajustes de la configuración seleccionada a sus ajustes "
 "por defecto"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: lib/gui/popup_session.py:188
 msgid "Display {}"
@@ -385,6 +418,8 @@ msgstr "Número de puntos de datos a muestrear para la media móvil"
 
 #: lib/gui/popup_session.py:345
 =======
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 #: lib/gui/popup_configure.py:538
 msgid "Select a plugin to configure:"
 msgstr ""
@@ -406,17 +441,24 @@ msgid "Number of data points to sample for rolling average"
 msgstr "Número de puntos de datos a muestrear para la media móvil"
 
 #: lib/gui/popup_session.py:348
+<<<<<<< HEAD
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 msgid "Set the smoothing amount. 0 is no smoothing, 0.99 is maximum smoothing"
 msgstr ""
 "Establezca la cantidad de regularización. 0 es sin regularización, 0,99 es "
 "máxima regularización"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: lib/gui/popup_session.py:347
 =======
 #: lib/gui/popup_session.py:350
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+#: lib/gui/popup_session.py:350
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 msgid ""
 "Flatten data points that fall more than 1 standard deviation from the mean "
 "to the mean value."
@@ -424,6 +466,7 @@ msgstr ""
 "Aplanar los puntos de datos que se alejan más de 1 desviación estándar de la "
 "media al valor medio."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: lib/gui/popup_session.py:350
 msgid "Display rolling average of the data"
@@ -447,6 +490,8 @@ msgstr "Ajustar los datos a mostrar"
 
 #: lib/gui/popup_session.py:360
 =======
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 #: lib/gui/popup_session.py:353
 msgid "Display rolling average of the data"
 msgstr "Mostrar la media móvil de los datos"
@@ -468,6 +513,9 @@ msgid "Set the data to display"
 msgstr "Ajustar los datos a mostrar"
 
 #: lib/gui/popup_session.py:363
+<<<<<<< HEAD
 >>>>>>> bc9482aa70759149758308efd0cf6ee5682ccafa
+=======
+>>>>>>> 2bcb7d572ac8fdacceb56d5cbd5b05fad8c71e5e
 msgid "Change y-axis scale"
 msgstr "Cambiar la escala del eje Y"
