@@ -942,6 +942,11 @@ class _Weights():
     def freeze(self):
         """ If freeze has been selected in the cli arguments, then freeze those models indicated
         in the plugin's configuration. """
+        # Blanket unfreeze layers, as checking the value of :attr:`layer.trainable` appears to
+        # return ``True`` even when the weights have been frozen
+        for layer in _get_all_sub_models(self._model):
+            layer.trainable = True
+
         if not self._do_freeze:
             logger.debug("Freeze weights deselected. Not freezing")
             return

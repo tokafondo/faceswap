@@ -129,8 +129,11 @@ class _Cache():
     def aligned_landmarks(self):
         """ dict: The filename as key, aligned landmarks as value """
         if self._aligned_landmarks is None:
-            self._aligned_landmarks = {key: val["aligned_face"].landmarks
-                                       for key, val in self._cache.items()}
+            with self._lock:
+                # For Warp-To-Landmarks a race condition can occur where this is referenced from
+                # the opposite side prior to it being populated, so block on a lock.
+                self._aligned_landmarks = {key: val["aligned_face"].landmarks
+                                           for key, val in self._cache.items()}
         return self._aligned_landmarks
 
     @property
@@ -203,7 +206,10 @@ class _Cache():
 
             if len(batch.shape) == 1:
                 folder = os.path.dirname(filenames[0])
-                details = [f"{key} ({img.shape[1]}px)" for key, img in zip(keys, batch)]
+                details = [
+                    "{0} ({1})".format(
+                        key, f"{img.shape[1]}px" if isinstance(img, np.ndarray) else type(img))
+                    for key, img in zip(keys, batch)]
                 msg = (f"There are mismatched image sizes in the folder '{folder}'. All training "
                        "images for each side must have the same dimensions.\nThe batch that "
                        f"failed contains the following files:\n{details}.")
@@ -306,8 +312,10 @@ class _Cache():
             a legacy face set/centering mismatch. ``False`` if the cache is being reset because it
             has detected a reset flag from the opposite cache.
         """
-        logger.warning("You are using legacy extracted faces but have selected '%s' centering "
-                       "which is incompatible. Switching centering to 'legacy'", self._centering)
+        if set_flag:
+            logger.warning("You are using legacy extracted faces but have selected '%s' centering "
+                           "which is incompatible. Switching centering to 'legacy'",
+                           self._centering)
         self._config["centering"] = "legacy"
         self._centering = "legacy"
         self._cache = {key: dict(cached=False) for key in self._cache}
@@ -377,7 +385,7 @@ class _Cache():
                 "You have selected the mask type '{}' but at least one face does not contain the "
                 "selected mask.\nThe face that failed was: '{}'\nThe masks that exist for this "
                 "face are: {}".format(
-                    self._config["mask_type"], filename, list(detected_face.mask.keys)))
+                    self._config["mask_type"], filename, list(detected_face.mask)))
 
         key = os.path.basename(filename)
         mask = detected_face.mask[self._config["mask_type"]]
@@ -640,7 +648,7 @@ class TrainingDataGenerator():  # pylint:disable=too-few-public-methods
 
         # Switch color order for RGB models
         if self._color_order == "rgb":
-            batch = batch[..., [2, 1, 0, 3]]
+            batch[..., :3] = batch[..., [2, 1, 0]]
 
         # Add samples to output if this is for display
         if self._processing.is_display:
